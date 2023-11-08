@@ -95,7 +95,6 @@ import { AnimateModule } from 'primeng/animate';
 import { CardModule } from 'primeng/card';
 import { BlockUIModule } from 'primeng/blockui';
 import { ProgressSpinnerModule } from 'primeng/progressspinner';
-import { NodeService } from 'src/service/nodeservice';
 
 @NgModule({
   imports: [
@@ -195,7 +194,7 @@ import { NodeService } from 'src/service/nodeservice';
     RouterModule.forRoot([{ path: '', component: TreeBasicDemo }])],
     declarations: [ TreeBasicDemo ],
     bootstrap: [ TreeBasicDemo ],
-    providers: [ NodeService ]
+    providers: [ ]
 })
 
 export class AppModule {}
